@@ -1,0 +1,130 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.image{
+   margin: auto;
+}
+.image img{
+
+    width: 350px; 
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text p{
+    text-align: center; 
+    color: #404040; 
+    font-family: 'Montserrat', 'sans-serif'; 
+    font-weight: 700; 
+    font-size: 45px; 
+    margin-bottom: 0px;
+}
+.container h1  {
+    color:white; 
+    text-align:center;
+}
+.about p{
+   text-align: center; 
+    color: white; 
+    font-family: 'Montserrat', 'sans-serif'; 
+    font-weight: 700; 
+    font-size: 45px; 
+    margin-bottom: 0px;
+}
+.row img{
+    width: 150px; 
+    height: 150px;
+    border-radius: 100%;
+    border: 10px solid #c8c8c8;
+    margin-top: 10px;
+}
+.study {
+    margin-bottom: 15px;
+    color: #404040;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: auto;
+    background: none;
+}
+
+.study:before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #e96656;
+    bottom: -9px;
+    left: 12.5%;
+}
+.service {
+    margin-bottom: 15px;
+    color: #404040;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: auto;
+    background: none;
+}
+
+.service:before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #34d293;
+    bottom: -9px;
+    left: 12.5%;
+}
+.network {
+    margin-bottom: 15px;
+    color: #404040;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: auto;
+    background: none;
+}
+
+.network:before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #f7d861;
+    bottom: -9px;
+    left: 12.5%;
+}
+
+
+.fb-like {
+    margin-top: 15px;
+}
+.at {
+   border: 5px solid #c8c8c8;
+   border-radius: 15px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+
+#section-apply h1{
+    text-align: center; 
+    color: black; 
+    font-family: 'Montserrat', 'sans-serif'; 
+    font-weight: 700; 
+    font-size: 45px; 
+    margin-bottom: 0px;
+}
